@@ -55,7 +55,7 @@ export const WEDDING_DATA = {
     coupleImage: "/assets/couple.jpg",
     petalImage: "/assets/petal.png",
     sealImage: "/assets/seal.png",
-    musicAudio: "/audio/wedding-invitation.mp3",
+    musicAudio: "/audio/wedding-invitation.m4a",
   },
 
   // Guestbook Initial Wishes

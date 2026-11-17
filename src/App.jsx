@@ -63,7 +63,10 @@ export default function App() {
         src={WEDDING_DATA.assets.musicAudio}
         loop
         preload="auto"
-      />
+      >
+        <source src="/audio/wedding-invitation.m4a" type="audio/mp4" />
+        <source src="/audio/wedding-invitation.mp3" type="audio/mpeg" />
+      </audio>
 
       {showParticles && <FloatingLeaves count={18} />}
       <ParticleBurst onTap={() => setHasInteracted(true)} />
